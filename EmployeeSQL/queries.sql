@@ -60,4 +60,10 @@ LEFT JOIN employee e on i.empID = e.empID;
 SELECT lastname, COUNT(*)
 FROM employee
 GROUP BY lastname
-ORDER BY count desc, lastname asc
+ORDER BY count desc, lastname asc;
+
+
+--For fun cuz I can read instructions...
+SELECT * 
+FROM employee
+WHERE empID = 499942;
